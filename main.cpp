@@ -10,8 +10,7 @@ using namespace std;
 
 
 int main() {
-//    freopen("infile1.txt", "r", stdin);
-
+    freopen("infile1.txt", "r", stdin);
 
 
 
