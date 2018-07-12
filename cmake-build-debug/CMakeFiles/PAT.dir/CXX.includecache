@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/gxl17/Documents/workspaces/CLionProjects/PAT/main.cpp
+/cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/main.cpp
 iostream
 -
 cstdio
@@ -20,5 +20,7 @@ vector
 stack
 -
 cmath
+-
+cstring
 -
 
