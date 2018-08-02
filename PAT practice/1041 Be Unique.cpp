@@ -15,23 +15,20 @@ using namespace std;
 int main() {
     freopen("infile1.txt", "r", stdin);
 
-    string s1,s2;
-    getline(cin,s1);
-    getline(cin,s2);
-
+    int n;
+    cin>>n;
+    vector<int> v(n);
     unordered_map<int,int> map;
-    for (int i = 0; i < s1.size(); ++i) {
-        map[s1[i]]++;
+    for (int i = 0; i < n; ++i) {
+        scanf("%d",&v[i]);
+        map[v[i]]++;
     }
-    for (int i = 0; i < s2.size(); ++i) {
-        map[s2[i]]=0;
-    }
-    for (int i = 0; i < s1.size(); ++i) {
-        if(map[s1[i]]!=0){
-            printf("%c",s1[i]);
+    for (int i = 0; i < n; ++i) {
+        if(map[v[i]]==1){
+            printf("%d",v[i]);
+            return 0;
         }
     }
+    printf("None");
 
-
-    return 0;
 }
