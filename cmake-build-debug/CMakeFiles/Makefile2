@@ -54,45 +54,45 @@ RM = /cygdrive/c/Users/chentaolian/.CLion2018.1/system/cygwin_cmake/bin/cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/PAT.dir
+# Target rules for target CMakeFiles/pat_exercise.dir
 
 # All Build rule for target.
-CMakeFiles/PAT.dir/all:
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/depend
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PAT"
-.PHONY : CMakeFiles/PAT.dir/all
+CMakeFiles/pat_exercise.dir/all:
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/depend
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target pat_exercise"
+.PHONY : CMakeFiles/pat_exercise.dir/all
 
 # Include target in all.
-all: CMakeFiles/PAT.dir/all
+all: CMakeFiles/pat_exercise.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PAT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PAT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/PAT.dir/rule
+CMakeFiles/pat_exercise.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pat_exercise.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pat_exercise.dir/rule
 
 # Convenience name for target.
-PAT: CMakeFiles/PAT.dir/rule
+pat_exercise: CMakeFiles/pat_exercise.dir/rule
 
-.PHONY : PAT
-
-# clean rule for target.
-CMakeFiles/PAT.dir/clean:
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/clean
-.PHONY : CMakeFiles/PAT.dir/clean
+.PHONY : pat_exercise
 
 # clean rule for target.
-clean: CMakeFiles/PAT.dir/clean
+CMakeFiles/pat_exercise.dir/clean:
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/clean
+.PHONY : CMakeFiles/pat_exercise.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pat_exercise.dir/clean
 
 .PHONY : clean
 

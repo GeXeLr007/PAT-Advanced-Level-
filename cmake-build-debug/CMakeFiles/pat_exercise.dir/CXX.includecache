@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/main.cpp
+/cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/main.cpp
 iostream
 -
 cstdio

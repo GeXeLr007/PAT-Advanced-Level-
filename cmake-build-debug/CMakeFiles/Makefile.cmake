@@ -124,5 +124,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/PAT.dir/DependInfo.cmake"
+  "CMakeFiles/pat_exercise.dir/DependInfo.cmake"
   )

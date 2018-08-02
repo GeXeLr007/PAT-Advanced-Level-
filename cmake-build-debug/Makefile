@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/chentaolian/.CLion2018.1/system/cygwin_cmake/bin/cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug/CMakeFiles /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug/CMakeFiles /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/PAT-Advanced-Level-/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/chentaolian/CLionProjects/pat_exercise/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PAT
+# Target rules for targets named pat_exercise
 
 # Build rule for target.
-PAT: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PAT
-.PHONY : PAT
+pat_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pat_exercise
+.PHONY : pat_exercise
 
 # fast build rule for target.
-PAT/fast:
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/build
-.PHONY : PAT/fast
+pat_exercise/fast:
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/build
+.PHONY : pat_exercise/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/PAT.dir/build.make CMakeFiles/PAT.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/pat_exercise.dir/build.make CMakeFiles/pat_exercise.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... PAT"
+	@echo "... pat_exercise"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
