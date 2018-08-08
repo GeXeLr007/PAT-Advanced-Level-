@@ -11,15 +11,16 @@
 
 using namespace std;
 
+struct Point {
+    int i, j;
+};
 
-bool cmp(const string &s1, const string &s2) {
-    return s1 + s2 < s2 + s1;
-}
 
 int main() {
-    freopen("infile1.txt", "r", stdin);
+    freopen("infile2.txt", "r", stdin);
 
 
 
     return 0;
 }
+
