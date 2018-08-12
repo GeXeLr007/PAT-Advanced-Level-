@@ -11,16 +11,13 @@
 
 using namespace std;
 
-struct Point {
-    int i, j;
-};
-
 
 int main() {
-    freopen("infile2.txt", "r", stdin);
+    freopen("infile1.txt", "r", stdin);
+
+    cout<<"fgrsh";
 
 
 
     return 0;
 }
-

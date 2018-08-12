@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/usr/bin/c++.exe")
+set(CMAKE_CXX_COMPILER "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "7.3.0")
@@ -11,23 +11,23 @@ set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx
 set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates")
 set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")
 
-set(CMAKE_CXX_PLATFORM_ID "Cygwin")
+set(CMAKE_CXX_PLATFORM_ID "MinGW")
 set(CMAKE_CXX_SIMULATE_ID "")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/usr/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "/usr/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "/usr/bin/ld.exe")
+set(CMAKE_AR "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/bin/ld.exe")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
 set(CMAKE_CXX_ABI_COMPILED TRUE)
-set(CMAKE_COMPILER_IS_MINGW )
-set(CMAKE_COMPILER_IS_CYGWIN 1)
+set(CMAKE_COMPILER_IS_MINGW 1)
+set(CMAKE_COMPILER_IS_CYGWIN )
 if(CMAKE_COMPILER_IS_CYGWIN)
   set(CYGWIN 1)
   set(UNIX 1)
@@ -70,6 +70,6 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-pc-cygwin/7.3.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0;C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/lib/gcc;C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/x86_64-w64-mingw32/lib;C:/Program Files/mingw-w64/x86_64-7.3.0-win32-sjlj-rt_v5-rev0/mingw64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
