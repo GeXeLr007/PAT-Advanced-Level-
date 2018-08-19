@@ -8,15 +8,14 @@
 #include <cstring>
 #include <unordered_map>
 #include <map>
+#include <queue>
 
 using namespace std;
 
 
 int main() {
     freopen("infile1.txt", "r", stdin);
-
-    cout<<"fgrsh";
-
+    int n;
 
 
     return 0;
