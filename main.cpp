@@ -13,9 +13,12 @@
 using namespace std;
 
 
+struct Mouse {
+    int weight, rank;
+};
+
 int main() {
     freopen("infile1.txt", "r", stdin);
-    int n;
 
 
     return 0;
